@@ -1,6 +1,6 @@
 <?php require 'header.php';?>
 
-
+<?php echo "Vous êtes le visiteur n°" . $nbre_visiteurs; ?>
 
 <form action="traitement.php" method="POST">
     <div class="champ-formulaire">
