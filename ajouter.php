@@ -1,6 +1,5 @@
 <?php require 'header.php';?>
 
-<?php echo "Vous êtes le visiteur n°" . $nbre_visiteurs; ?>
 
 <form action="traitement.php" method="POST">
     <div class="champ-formulaire">
@@ -20,7 +19,7 @@
         <textarea name="description" id="description"></textarea>
     </div>
 
-    <input type="submit" value="Valider" name="submit">
+    <input type="submit" value="Valider" name="submit" value="<?php echo $erreur ?>"/>>
 </form>
 
 <?php require 'footer.php'; ?>
