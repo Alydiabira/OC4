@@ -11,12 +11,7 @@
             <a href="oeuvre.php?id=<?= $oeuvre['id'] ?>">
                 <img src="<?= $oeuvre['image'] ?>" alt="<?= $oeuvre['titre'] ?>">
                 <h2><?= $oeuvre['titre'] ?></h2>
-                <p class="description"><?= $oeuvre['artiste'] . "<br>"; ?>                 
-                <?php
-                date_default_timezone_set("Europe/Paris"); 
-                echo date('d/m/Y h:i:sa')  ; ?>
-                </p>
-
+                <p class="description"><?= $oeuvre['artiste'] . "<br>"; ?></p>
             </a>
         </article>
     <?php  } ?>
