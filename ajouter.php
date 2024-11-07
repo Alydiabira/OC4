@@ -20,7 +20,6 @@
         <textarea name="description" id="description"></textarea>
     </div>
 
-    <input type="submit" value="Valider" name="submit" value="<?php echo $erreur ?>"/>>
-</form>
+    <input type="submit" value="Valider" name="submit" value="<?php echo $erreur ?>"/>
 
 <?php require 'footer.php'; ?>
