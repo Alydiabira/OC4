@@ -1,6 +1,9 @@
 <?php require 'header.php';?>
 
+<?php
+ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 
+?>
 
 <form action="traitement.php" method="POST">
     <div class="champ-formulaire">
@@ -20,6 +23,6 @@
         <textarea name="description" id="description"></textarea>
     </div>
 
-    <input type="submit" value="Valider" name="submit" value="<?php echo $erreur ?>"/>
+    <input type="submit" value="Valider" name="submit"/>
 
 <?php require 'footer.php'; ?>
