@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $titre = $_POST['titre'];
     }
 
-    // Vérifier si le champ description est rempli et s'il est valide
+    // Vérifier si le champ artiste est rempli et s'il est valide
     if (empty($_POST['artiste'])) {
         echo "La description est requis.<br>";
     } else {
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
-     // Vérifier si le champ email est rempli et s'il est valide
+     // Vérifier si le champ image est rempli et s'il est valide
     if (empty($_POST['image'])) {
         echo "L'image est requis.<br>";
     } else {
